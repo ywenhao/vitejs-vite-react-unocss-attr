@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# npx vue-tsc --noEmit --skipLibCheck
+npx lint-staged
